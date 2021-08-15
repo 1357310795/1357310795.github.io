@@ -4,13 +4,50 @@
   
   
   <entry>
-    <title>Hello World</title>
+    <title>高中数学笔记（小抄）(持续更新中……)</title>
+    <link href="/2021/08/15/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E5%B0%8F%E6%8A%84%EF%BC%89/"/>
+    <url>/2021/08/15/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E5%B0%8F%E6%8A%84%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[<h2 id="1-最最最重要的三角公式"><a href="#1-最最最重要的三角公式" class="headerlink" title="1.最最最重要的三角公式"></a>1.最最最重要的三角公式</h2><p>$ \sin^2\alpha=\frac{\tan^2\alpha}{\tan^2\alpha+1} $</p><p>$ \cos^2\alpha=\frac{1}{\tan^2\alpha+1} $</p><p>$ \sin\alpha\cos\alpha=\frac{\tan\alpha}{\tan^2\alpha+1} $</p><p>$ \sin\alpha+\cos\alpha=\pm \sqrt{\frac{(\tan\alpha+1)^2}{\tan^2\alpha+1}} $</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>数学笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>使用Hexo重新建站纪念</title>
     <link href="/2021/08/15/hello-world/"/>
     <url>/2021/08/15/hello-world/</url>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
+    <categories>
+      
+      <category>大事记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
     
   </entry>
   
@@ -26,7 +63,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -55,7 +92,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -86,7 +123,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -115,7 +152,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -144,7 +181,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -173,7 +210,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -204,7 +241,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -233,7 +270,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -264,7 +301,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -293,7 +330,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -322,7 +359,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -351,7 +388,7 @@
     
     <categories>
       
-      <category>默认分类</category>
+      <category>Maverick</category>
       
     </categories>
     
@@ -390,33 +427,6 @@
       <tag>Design</tag>
       
       <tag>Typography</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>关于</title>
-    <link href="/2017/06/28/about/"/>
-    <url>/2017/06/28/about/</url>
-    
-    <content type="html"><![CDATA[<p>这里是我的个人博客，通过 GitHub 管理与构建。</p><h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p>Email: 1357310795#qq.com (replace # with @)</p><p>Thanks.</p><p><a href="https://sm.ms/image/QXG6pT4LzRONqFl">https://sm.ms/image/QXG6pT4LzRONqFl</a><br><a href="https://sm.ms/image/d2qvDKUmgcykxXn">https://sm.ms/image/d2qvDKUmgcykxXn</a><br><a href="https://sm.ms/image/VG5oUiPZWOrqasT">https://sm.ms/image/VG5oUiPZWOrqasT</a><br><a href="https://sm.ms/image/rJajUyiR6OQhg1x">https://sm.ms/image/rJajUyiR6OQhg1x</a><br><a href="https://sm.ms/image/WfuBg5o8HhlQcXI">https://sm.ms/image/WfuBg5o8HhlQcXI</a></p><p><a href="http://mp.weixin.qq.com/s?__biz=MzkxNzI0MDI0Nw==&amp;mid=2247484410&amp;idx=1&amp;sn=c3a4c04069a61009c0a278a234c44b7b&amp;chksm=c142e322f6356a34a0afd0a80c8e333955ea1f982fd6f2821aff825208577eb9ad1538fe84e9&amp;mpshare=1&amp;scene=23&amp;srcid=0520p7eSg0ym4XW5qVyZmz6U&amp;sharer_sharetime=1621583882157&amp;sharer_shareid=b47e4ed8284f1ec55f7d7f227a408028#rd">http://mp.weixin.qq.com/s?__biz=MzkxNzI0MDI0Nw==&amp;mid=2247484410&amp;idx=1&amp;sn=c3a4c04069a61009c0a278a234c44b7b&amp;chksm=c142e322f6356a34a0afd0a80c8e333955ea1f982fd6f2821aff825208577eb9ad1538fe84e9&amp;mpshare=1&amp;scene=23&amp;srcid=0520p7eSg0ym4XW5qVyZmz6U&amp;sharer_sharetime=1621583882157&amp;sharer_shareid=b47e4ed8284f1ec55f7d7f227a408028#rd</a><br>盛年不再来，一日难再晨。及时当勉励，岁月不待人。</p><div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2020-10-10T10:40:39.371Z\&quot; agent=\&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.0 Safari/537.36 Edg/87.0.666.0\&quot; etag=\&quot;AyUe9LspB34LqzL8Tixg\&quot; version=\&quot;13.5.8\&quot; type=\&quot;github\&quot;&gt;&lt;diagram name=\&quot;Page-1\&quot; id=\&quot;ff44883e-f642-bcb2-894b-16b3d25a3f0b\&quot;&gt;7ZpLb+IwEIB/TY5bJXZC4cjS14FVkXpYtTdv7CbRJjEypoT++g3Ebh5W5V0vGOGCOCRje8aeLxnPGDw4K6p7hpbpD4pJ7gEfVx688QAIQgC83dfH20ZyPYGNIGEZFp1awVP2ToTQF9J1hsmq15FTmvNs2RfGtCxJzHsyxBjd9Lu90rxvdYkSogieYpRL6VXUyn9mmKdCHowmbcMDyZJUGB+DUdPwC8W/E0bXpbDoAfi6/zTNBZK6xFJXKcJ00xHBWw/OGKW8uSqqGcl33pWOk+P4Vs7Wg99TXuT1TVBf7pvvPhkc/M3genGMlLxr7jN9eDEF8wrF6cv8ZrGZP1fbx+k3YeQN5WtpZGiVlHi641TflbQkukkIjQT3sIkp3RNaEM62dYdNiyoSfko7kKSMkRzx7K3/CCDxzCQf6j4sLGhWzwT44vkGodAjnm448vsqVnTNYiJGdb03VDTWKOKIJYQriuqLzrJb0R7OP4ACF1BmoELfLij4xUAp/j0XUOEFlCGo0C6oyHVQQ//CyVUEzFhBoNd1ZFwjx3EpLjZ9rxRFlt+ra8dBaVM2Y1CWd6qx46DgoXI/eOIkffLFQJmHPh3xI4OShxcXUjpS4YljX+D6CYU2ZpkGP+ukgOukjhX9bCd+getnFIqD/6OiUgKgbViun1Nod5izIeV65aucKBmf0Q4URbZJOV/6HoqUUvraTtSdr311DjYlFdlO/5wvfnUONj1Ptx395DqcJaXdXs6GlOvFr+Jg43fqxBmFBOMuqaGDDxb9LO9TwKiewmiVEixYnRM2XQQz/hH4YIlgfdv+harp3v5TDd7+AQ==&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div><script type="text/javascript" src="https://app.diagrams.net/js/viewer-static.min.js"></script>]]></content>
-    
-    
-    <categories>
-      
-      <category>Maverick</category>
-      
-      <category>Dev</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>theme</tag>
       
     </tags>
     
