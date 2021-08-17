@@ -1,389 +1,1029 @@
 
-
 <!DOCTYPE html>
-<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
-
-
-
+<html lang="zh-CN" class="loading">
 <head>
-  <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/doge.png">
-  <link rel="icon" href="/img/doge.png">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  
-  <meta name="theme-color" content="#3A6A99">
-  <meta name="description" content="">
-  <meta name="author" content="John Doe">
-  <meta name="keywords" content="">
-  
-  <title>标签 - 博客 - Hexo</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tag: 博客 - Hexo</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="TriDiamond Obsidian,"> 
+    
+    <meta name="author" content="John Doe"> 
+    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1429596_nzgqgvnmkjb.css">
 
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.7.2/animate.min.css">
 
+    
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
 
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/codemirror.min.css">
 
-<!-- 主题依赖的图标库，不要自行修改 -->
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/theme/dracula.css">
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+    
+<link rel="stylesheet" href="/css/obsidian.css">
 
+    
+<link rel="stylesheet" href="/css/ball-atom.min.css">
 
+    
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
-
-
-<link  rel="stylesheet" href="/css/main.css" />
-
-<!-- 自定义样式保持在最底部 -->
-
-
-  <script id="fluid-configs">
-    var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.11","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"#"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
-  </script>
-  <script  src="/js/utils.js" ></script>
-  <script  src="/js/color-schema.js" ></script>
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
-<body>
-  <header style="height: 80vh;">
-    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
-  <div class="container">
-    <a class="navbar-brand"
-       href="/">&nbsp;<strong>SZY的博客</strong>&nbsp;</a>
-
-    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon"><span></span><span></span><span></span></div>
-    </button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto text-center">
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/">
-                <i class="iconfont icon-home-fill"></i>
-                首页
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/archives/">
-                <i class="iconfont icon-archive-fill"></i>
-                归档
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/">
-                <i class="iconfont icon-category-fill"></i>
-                分类
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/">
-                <i class="iconfont icon-tags-fill"></i>
-                标签
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/about/">
-                <i class="iconfont icon-user-fill"></i>
-                关于
-              </a>
-            </li>
-          
-        
-        
-          <li class="nav-item" id="search-btn">
-            <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
-                class="iconfont icon-search"></i>&nbsp;</a>
-          </li>
-        
-        
-          <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" target="_self">&nbsp;<i
-                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
-          </li>
-        
-      </ul>
+<body class="loading">
+    <div class="loader">
+        <div class="la-ball-atom la-2x">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
-  </div>
-</nav>
+    <span id="config-title" style="display:none">Hexo</span>
+    <div id="loader"></div>
+    <div class="nav">
+    <ul id="menu-menu" class="menu">
+        
+        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/whoami/" title="ABOUT" external="false">ABOUT</a>
+        </li>
+        
+        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/categories/" title="CATEGORIES" external="false">CATEGORIES</a>
+        </li>
+        
+        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/tags/" title="TAGS" external="false">TAGS</a>
+        </li>
+        
+        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
+            <a href="/archives/" title="ARCHIVES" external="false">ARCHIVES</a>
+        </li>
+        
+    </ul>
+    <p class="copyright" id="copyright">
+        &copy; 2021 John Doe.
+        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+        Theme <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
+    </p>
+</div>
 
-    <div class="banner" id="banner" parallax=true
-         style="background: url('/img/nathan-dumlao---OZtMyddAE-unsplash.jpg') no-repeat center center;
-           background-size: cover;">
-      <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-          <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="标签 - 博客">
-              
+<div id="container">
+    
+<div class="search-box">
+    <form class="site-search-form">
+        <span class="iconfont icon-search"></span>
+        <input type="text" id="local-search-input" class="st-search-input" />
+        <div class="iconfont icon-cross search-box-close"></div>
+    </form>
+    <div class="search-scrollable">
+        <div id="local-search-result" class="local-search-result-cls" data-initialise="首次搜索，正在载入索引文件，请稍后……"
+            data-start="输入关键词搜索。" data-empty="没有找到内容，请尝试更换检索词。">
+            <span>输入关键词搜索。</span>
+        </div>
+    </div>
+</div>
+<div id="header">
+    <div>
+        <div class="logo animated fadeInDown">
+            <img src="/img/favicon.png" alt="">
+            <a class="image-logo" href="/"></a>
+        </div>
+        <ul id="menu-menu" class="menu text-menu">
+            
+            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="/whoami/" title="ABOUT" external="false" class="menu-link">ABOUT</a>
+            </li>
+            
+            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="/categories/" title="CATEGORIES" external="false" class="menu-link">CATEGORIES</a>
+            </li>
+            
+            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="/tags/" title="TAGS" external="false" class="menu-link">TAGS</a>
+            </li>
+            
+            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="/archives/" title="ARCHIVES" external="false" class="menu-link">ARCHIVES</a>
+            </li>
+            
+            
+        </ul>
+        <div class="iconfont icon-menu switchmenu gradient-text animated fadeInDown"></div>
+    </div>
+</div>
+<div id="screen">
+    <div id="mark">
+        <div class="cover animated fadeIn" style="
+            animation-delay: 900ms;
+            animation-duration: 2.8s;
+            background-image:
+                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.56), #100e17),
+                url(/img/cover.jpg);">
+        </div>
+    </div>
+    
+    <div id="post0" class="else">
+        <p class="animated fadeInDown">
+            
+            <a href="/categories/Maverick"><b>「
+                </b>MAVERICK<b> 」</b></a>
+            
+            十月 01, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown">
+            <a href="/2020/10/01/10.1%E5%A4%A7%E7%A4%BC%E5%8C%85/" title="10.1大礼包" class="posttitle">10.1大礼包</a></h3>
+        
+        <p class="post-count animated fadeInDown">
+            
+            <span>
+                <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                806
             </span>
+            
+            
+            <span>
+                <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                1 mins.
+            </span>
+            
+            
+        </p>
+        
+        
+        <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+        
+        <div class="md-content animated fadeIn">
+            
+            <ul>
+<li>国庆作业一览</li>
+</ul>
+<p></p>
+<ul>
+<li><p>数学课课件<br><a target="_blank" rel="noopener" href="https://github.com/1357310795/Blog-With-GitHub-Boilerplate/blob/source/src/files/专题利用图象求解函数零点问题.docx?raw=true">下载地址</a></p>
+</li>
+<li><p>强基、三一培训时间表</p>
+</li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语文</th>
+<th>物理</th>
+<th>数学</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10月1日 13:30-16:30</td>
+<td>10月2日 18:00-21:00</td>
+<td>10月4日 15:20-...</td></tr></tbody></table></div>
+            
+            <span class="read-more"><a href="/2020/10/01/10.1%E5%A4%A7%E7%A4%BC%E5%8C%85/" title="查看全文" class="posttitle">查看全文</a>
+                <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+    
+</div>
+
+<div class="screen-gradient-after">
+    <div class="screen-gradient-content">
+        <div class="screen-gradient-content-inside">
+            <div class="bold-underline-links screen-gradient-sponsor">
+                <p>
+                    <span class="typed-text"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="primary">
+        
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(/img/welcome-cover.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Maverick">
+                  <b>「 </b>MAVERICK<b> 」</b>
+                </a>
+            
+            七月 24, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/2020/07/24/%E6%9A%91%E5%81%87%E4%BD%9C%E4%B8%9A/" title="暑假作业" class="posttitle">暑假作业</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        2k
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        2 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E4%BD%9C%E4%B8%9A/" rel="tag">作业</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <ul>
+<li><p>语文</p>
+<ul>
+<li>完成<strong>《金考卷》</strong>10套（第4套至第13套)，建议<strong>每两天一套</strong>，并注意错题的及时整理</li>
+<li>每班分六组完成一套浙江高考语文模拟试题的命制（要求以2020浙江卷为样卷，要求试题原创，考点明确，答案拟制科学，解析具体，由指定负责人组卷审卷)</li>
+<li>关于论述文或逻辑学的书籍<strong>阅读</strong></li>
+<li>做好经典名句和时尚素材的<strong>摘抄</strong>工作，不少于1000字</li>
+</ul>
+</li>
+<li><p>数学</p>
+<ul>
+<li>白本 P<sub>47-72</sub></li>
+<li>8套金考卷</li>
+</ul>
+</li>
+<li><p>英语</p>
+<ul>
+<li><p><strong>听力</strong>。每天一份听力（完成精编卷和高考真题卷的听力；还可以重新听维克多听过的部分，强化听力词汇，速记等能力；以上材料扫二维码即可...</p></li></ul></li></ul>
+            
+            <span class="read-more"><a href="/2020/07/24/%E6%9A%91%E5%81%87%E4%BD%9C%E4%B8%9A/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(/img/welcome-cover.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Maverick">
+                  <b>「 </b>MAVERICK<b> 」</b>
+                </a>
+            
+            六月 26, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/2020/06/26/6.26%E5%8C%96%E5%AD%A6%E7%AD%94%E6%A1%88%E6%A0%A1%E5%AF%B9/" title="6.26化学答案校对" class="posttitle">6.26化学答案校对</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        831
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        1 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 
             
-          </div>
-
-          
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
-          
+            <span class="read-more"><a href="/2020/06/26/6.26%E5%8C%96%E5%AD%A6%E7%AD%94%E6%A1%88%E6%A0%A1%E5%AF%B9/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
-      </div>
     </div>
-  </header>
+</div>
 
-  <main>
-    
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
+
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(/img/welcome-cover.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Maverick">
+                  <b>「 </b>MAVERICK<b> 」</b>
+                </a>
+            
+            二月 13, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/2020/02/13/%E5%AF%92%E5%81%87%E6%B5%8B%E8%AF%95/" title="寒假测试时间表" class="posttitle">寒假测试时间表</a></h3>
+        
+            <p class="post-count animated fadeInDown">
                 
-
-<div class="list-group">
-  <p class="h4">共计 12 篇文章</p>
-  <hr>
-  
-  
-    
-      
-      <p class="h5">2020</p>
-    
-    <a href="/2020/10/01/10.1%E5%A4%A7%E7%A4%BC%E5%8C%85/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">10.1大礼包</span>
-      <time style="float: right;">10-01</time>
-    </a>
-  
-    
-    <a href="/2020/07/24/%E6%9A%91%E5%81%87%E4%BD%9C%E4%B8%9A/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">暑假作业</span>
-      <time style="float: right;">07-24</time>
-    </a>
-  
-    
-    <a href="/2020/06/26/6.26%E5%8C%96%E5%AD%A6%E7%AD%94%E6%A1%88%E6%A0%A1%E5%AF%B9/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">6.26化学答案校对</span>
-      <time style="float: right;">06-26</time>
-    </a>
-  
-    
-    <a href="/2020/02/13/%E5%AF%92%E5%81%87%E6%B5%8B%E8%AF%95/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">寒假测试时间表</span>
-      <time style="float: right;">02-13</time>
-    </a>
-  
-    
-    <a href="/2020/02/04/%E7%BD%91%E8%AF%BE%E8%B5%84%E6%96%99/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">网课资料</span>
-      <time style="float: right;">02-04</time>
-    </a>
-  
-    
-    <a href="/2020/01/29/2019-nCov/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">2019-nCov实时疫情图</span>
-      <time style="float: right;">01-29</time>
-    </a>
-  
-    
-    <a href="/2020/01/20/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E8%8B%B1%E8%AF%AD%E5%90%AC%E5%8A%9B%E4%B8%8B%E8%BD%BD/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">期末考试英语听力下载</span>
-      <time style="float: right;">01-20</time>
-    </a>
-  
-    
-    <a href="/2020/01/19/%E5%AF%92%E5%81%87%E4%BD%9C%E4%B8%9A/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">寒假作业</span>
-      <time style="float: right;">01-19</time>
-    </a>
-  
-    
-    <a href="/2020/01/18/%E5%B5%8A%E5%B7%9E%E4%B8%AD%E5%AD%A62019%E5%AD%A6%E5%B9%B4%E5%AF%92%E5%81%87%E5%BC%80%E5%AD%A6%E8%BF%94%E6%A0%A1%E8%80%83%E6%97%B6%E9%97%B4%E5%AE%89%E6%8E%92%E5%92%8C%E8%80%83%E8%AF%95%E8%8C%83%E5%9B%B4/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">返校考安排</span>
-      <time style="float: right;">01-18</time>
-    </a>
-  
-    
-    <a href="/2020/01/18/%E6%95%B0%E5%AD%A6%E5%AD%A6%E8%80%83%E6%A8%A1%E6%8B%9F%E5%8D%B7%E4%B8%8B%E8%BD%BD/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">数学学考模拟卷下载</span>
-      <time style="float: right;">01-18</time>
-    </a>
-  
-</div>
-
-
-  <nav aria-label="navigation">
-    <span class="pagination" id="pagination">
-      <span class="page-number current">1</span><a class="page-number" href="/tags/%E5%8D%9A%E5%AE%A2/page/2/#board">2</a><a class="extend next" rel="next" href="/tags/%E5%8D%9A%E5%AE%A2/page/2/#board"><i class="iconfont icon-arrowright"></i></a>
-    </span>
-  </nav>
-
-
-
-
-              </div>
-            </div>
-          </div>
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        740
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        1 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <div class="table-container">
+<table>
+<thead>
+<tr>
+<th>科目</th>
+<th>时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>语文</td>
+<td>2月19日（星期三）8:00～8:50</td>
+</tr>
+<tr>
+<td>物理</td>
+<td>2月19日（星期三）9:20～10:10</td>
+</tr>
+<tr>
+<td>历史</td>
+<td>2月19日（星期三）10:40～11:30</td>
+</tr>
+<tr>
+<td>生物</td>
+<td>2月19日（星期三）2:00～2:50</td>
+</tr>
+<tr>
+<td>政治</td>
+<td>2月19日（星期三）3:20～4:10</td>
+</tr>
+<tr>
+<td>数学</td>
+<td>2月20日（星期四）8:00～8:50</td>
+</tr>
+<tr>
+<td>化学</td>
+<td>2月20日（星期四）9:20～10:10</td>
+</tr>
+<tr>
+<td>地理</td>
+<td>2月20日（星期四）10:40～11:30</td>
+</tr>
+<tr>
+<td>技术</td>
+<td>2月20日（星期四）2:00～2:50</td>
+</tr>
+<tr>
+<td>英语</td>
+<td>2月...</td></tr></tbody></table></div>
+            
+            <span class="read-more"><a href="/2020/02/13/%E5%AF%92%E5%81%87%E6%B5%8B%E8%AF%95/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
         </div>
-      </div>
-    
-
-    
-      <a id="scroll-top-button" href="#" role="button">
-        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
-      </a>
-    
-
-    
-      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
-     aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
-        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
-        </div>
-        <div class="list-group" id="local-search-result"></div>
-      </div>
     </div>
-  </div>
 </div>
+
+
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(/img/welcome-cover.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Maverick">
+                  <b>「 </b>MAVERICK<b> 」</b>
+                </a>
+            
+            二月 04, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/2020/02/04/%E7%BD%91%E8%AF%BE%E8%B5%84%E6%96%99/" title="网课资料" class="posttitle">网课资料</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        346
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        1 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <p><a target="_blank" rel="noopener" href="https://jia666-my.sharepoint.com/:f:/g/personal/skcratdg8_xkx_me/EtQeksyp3g1OneFFo2uUhtMBVJOumNzeYNzYb7P2WIfM-g?e=CByOgI">https://jia666-my.sharepoint.com/:f:/g/personal/skcratdg8_xkx_me/EtQeksyp3g1OneFFo2uUhtMBVJOumNzeYNzYb7P2WIfM-g?e=CByOgI</a></p>
+
+            
+            <span class="read-more"><a href="/2020/02/04/%E7%BD%91%E8%AF%BE%E8%B5%84%E6%96%99/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(/img/welcome-cover.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Maverick">
+                  <b>「 </b>MAVERICK<b> 」</b>
+                </a>
+            
+            一月 29, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/2020/01/29/2019-nCov/" title="2019-nCov实时疫情图" class="posttitle">2019-nCov实时疫情图</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        9.7k
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        9 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E8%82%BA%E7%82%8E/" rel="tag">肺炎</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <p><iframe src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php" height="500" frameborder="no" border="0" width="100%"> </iframe></p>
+<hr>
+<hr>
+<ul>
+<li>新型冠状病毒（2019-nCoV）感染所致肺炎</li>
+<li>起初发热、乏力、干咳，逐渐出现呼吸困难等</li>
+<li>具备人传染人的能力，正确佩戴口罩加强防护</li>
+<li>多数预后良好，少数病情危重，甚至可致死亡</li>
+</ul>
+<hr>
+<h3 id="疾病定义"><a href="#疾病定义" class="headerlink" title="疾病定义"></a>疾病定义</h3><p>新型冠状病毒感染的肺炎是一种急性感染性肺炎，其病原体是一种先前未在人类中发现的新型冠状病毒，即2019新型冠状病毒（2019 novel Coronavirus，2019-nCoV）。</p>
+<p>患者初始症状多为发热、乏力和干咳，并逐渐出现呼吸困难等严重表现。多数患者预后良好，部分严重病例可出现急性呼吸窘迫综合征...</p>
+            
+            <span class="read-more"><a href="/2020/01/29/2019-nCov/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(/img/welcome-cover.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Maverick">
+                  <b>「 </b>MAVERICK<b> 」</b>
+                </a>
+            
+            一月 20, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/2020/01/20/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E8%8B%B1%E8%AF%AD%E5%90%AC%E5%8A%9B%E4%B8%8B%E8%BD%BD/" title="期末考试英语听力下载" class="posttitle">期末考试英语听力下载</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        232
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        1 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <p><a target="_blank" rel="noopener" href="https://github.com/1357310795/Blog-With-GitHub-Boilerplate/blob/source/src/files/绍兴市2019学年第一学期期末高二英语听力.mp3?raw=true">下载地址1（GitHub）</a></p>
+<p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1IFbyOBfWfCgEdQVG-eUjvA">下载地址2（百度网盘）</a></p>
+
+            
+            <span class="read-more"><a href="/2020/01/20/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E8%8B%B1%E8%AF%AD%E5%90%AC%E5%8A%9B%E4%B8%8B%E8%BD%BD/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(/img/welcome-cover.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Maverick">
+                  <b>「 </b>MAVERICK<b> 」</b>
+                </a>
+            
+            一月 19, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/2020/01/19/%E5%AF%92%E5%81%87%E4%BD%9C%E4%B8%9A/" title="寒假作业" class="posttitle">寒假作业</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        1.4k
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        1 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E4%BD%9C%E4%B8%9A/" rel="tag">作业</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <ul>
+<li><p>语文</p>
+<ul>
+<li>寒假作业本</li>
+<li>看课外书</li>
+<li>完成征文</li>
+<li>摘抄至少1000字</li>
+</ul>
+</li>
+<li><p>数学</p>
+<ul>
+<li>寒假作业本</li>
+<li>四套模拟试卷（<a target="_blank" rel="noopener" href="https://1357310795.github.io/Blog-With-GitHub-Boilerplate/archives/math-homework/">点击转到下载页面</a>）</li>
+</ul>
+</li>
+<li><p>英语</p>
+<ul>
+<li>《读后续写》（书每天看、记5-10页；熟记其他相关材料）</li>
+<li>应用文材料（背诵，默写词、句、文）</li>
+<li>每天听一套听力测试</li>
+<li>《典范英语》至少看三本（做好笔记，注意细节描写和表达）</li>
+<li>寒假作业本（41页起词汇部分必须完成，其他自选或做《天利38套》模拟试题）</li>
+<li>整理笔记</li>
+<li>学一首英文歌（lina推荐<a target="_blank" rel="noopener" href="https://music.163.com/#/song?id=18638023">Born to be somebody</a>或<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av8184769">Dream it possible</a>，点击歌名可...</li></ul></li></ul>
+            
+            <span class="read-more"><a href="/2020/01/19/%E5%AF%92%E5%81%87%E4%BD%9C%E4%B8%9A/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(/img/welcome-cover.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Maverick">
+                  <b>「 </b>MAVERICK<b> 」</b>
+                </a>
+            
+            一月 18, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/2020/01/18/%E5%B5%8A%E5%B7%9E%E4%B8%AD%E5%AD%A62019%E5%AD%A6%E5%B9%B4%E5%AF%92%E5%81%87%E5%BC%80%E5%AD%A6%E8%BF%94%E6%A0%A1%E8%80%83%E6%97%B6%E9%97%B4%E5%AE%89%E6%8E%92%E5%92%8C%E8%80%83%E8%AF%95%E8%8C%83%E5%9B%B4/" title="返校考安排" class="posttitle">返校考安排</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        1.1k
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        1 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <div class="table-container">
+<table>
+<thead>
+<tr>
+<th>科目</th>
+<th>检测范围</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>语文</td>
+<td>必修 1-5，学考篇目</td>
+<td>具体以学科教学指导意见（2014 版）为依据</td>
+</tr>
+<tr>
+<td>数学</td>
+<td>学考内容</td>
+<td>具体以学科教学指导意见（2014 版）为依据</td>
+</tr>
+<tr>
+<td>英语</td>
+<td>必修 1-5（第二单元）</td>
+<td>有听力</td>
+</tr>
+<tr>
+<td>政治</td>
+<td>必修 1-4</td>
+<td>《学业水平考试暨高考选考科目考试说明》为基本依据  <br>时政有选择题</td>
+</tr>
+<tr>
+<td>历史</td>
+<td>选修 3,4，选修 6（1-4 单元）</td>
+<td>命题知识点以省《学业水平考试暨高考选考科目考试说明》中的“加试”要求为基本依据</td>
+</tr>
+<tr>
+<td>地理</td>
+<td>必修 1+世界地理</td>
+<td>选修部分不考</td>
+</tr>
+<tr>
+<td>物理</td>
+<td>必修...</td></tr></tbody></table></div>
+            
+            <span class="read-more"><a href="/2020/01/18/%E5%B5%8A%E5%B7%9E%E4%B8%AD%E5%AD%A62019%E5%AD%A6%E5%B9%B4%E5%AF%92%E5%81%87%E5%BC%80%E5%AD%A6%E8%BF%94%E6%A0%A1%E8%80%83%E6%97%B6%E9%97%B4%E5%AE%89%E6%8E%92%E5%92%8C%E8%80%83%E8%AF%95%E8%8C%83%E5%9B%B4/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+</div>
+
+
+<div class="post" id="post">
+    <div class="post-cover animated fadeIn" style="
+            background-image:
+            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+            url(/img/welcome-cover.jpg);">
+    </div>
+    <div class="else">
+        <p class="animated fadeInDown">
+            
+                <a href="/categories/Maverick">
+                  <b>「 </b>MAVERICK<b> 」</b>
+                </a>
+            
+            一月 18, 2020
+        </p>
+        <h3 class="post-title animated fadeInDown"><a href="/2020/01/18/%E6%95%B0%E5%AD%A6%E5%AD%A6%E8%80%83%E6%A8%A1%E6%8B%9F%E5%8D%B7%E4%B8%8B%E8%BD%BD/" title="数学学考模拟卷下载" class="posttitle">数学学考模拟卷下载</a></h3>
+        
+            <p class="post-count animated fadeInDown">
+                
+                    <span>
+                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                        286
+                    </span>
+                
+                
+                    <span>
+                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                        1 mins.
+                    </span>
+                
+                
+            </p>
+            
+                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+            
+        
+        <div class="md-content animated fadeIn">
+            
+                <p>访问链接或扫描二维码下载</p>
+<p><a target="_blank" rel="noopener" href="https://c-t.work/s/c89808e6e5b940">https://c-t.work/s/c89808e6e5b940</a></p>
+<p></p>
+<p>168小时后（2020-02-03 14:38）过期。</p>
+
+            
+            <span class="read-more"><a href="/2020/01/18/%E6%95%B0%E5%AD%A6%E5%AD%A6%E8%80%83%E6%A8%A1%E6%8B%9F%E5%8D%B7%E4%B8%8B%E8%BD%BD/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
+        </div>
+    </div>
+</div>
+
+
+    </div>
     
-
+    <div id="pager"><a href="/tags/%E5%8D%9A%E5%AE%A2/page/2/" class="more" data-loading="加载中..." data-load-more="加载更多">加载更多</a></div>
     
-  </main>
+</div>
+<div id="preview"></div>
 
-  <footer class="text-center mt-5 py-3">
-  <div class="footer-content">
-     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
-  </div>
-  
 
-  
-
-  
+    <div id="back-to-top" class="animated fadeIn faster">
+        <div class="flow"></div>
+        <span class="percentage animated fadeIn faster">0%</span>
+        <span class="iconfont icon-top02 animated fadeIn faster"></span>
+    </div>
+</body>
+<footer>
+    <p class="copyright" id="copyright">
+        &copy; 2021
+        <span class="gradient-text">
+            John Doe
+        </span>.
+        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+        Theme
+        <span class="gradient-text">
+            <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
+        </span>
+        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.7" target="_blank" rel="noopener">v1.4.7</a></small>
+        
+        </br>
+        
+        <span class="gradient-text">
+            <a href="https://beian.miit.gov.cn/" title="beian.miit.gov.cn" target="_blank" rel="noopener">beian.miit.gov.cn</a>
+        </span>
+        
+        
+        </br>
+        <span style="display: inline-block;"> <img src=/null></span>
+        
+        <span class="gradient-text">
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602009049" title="www.beian.gov.cn&#x2F;portal&#x2F;registerSystemInfo?recordcode&#x3D;44010602009049" target="_blank" rel="noopener">www.beian.gov.cn&#x2F;portal&#x2F;registerSystemInfo?recordcode&#x3D;44010602009049</a>
+        </span>
+        
+    </p>
 </footer>
 
+<script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "TeX",
+      availableFonts: ["STIX", "TeX"],
+      linebreaks: {
+        automatic: true
+      },
+      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      processEscapes: true,
+      ignoreClass: "tex2jax_ignore|dno",
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      noUndefined: {
+        attributes: {
+          mathcolor: "red",
+          mathbackground: "#FFEEEE",
+          mathsize: "90%"
+        }
+      },
+      Macros: {
+        href: "{}"
+      }
+    },
+    messageStyle: "none"
+  });
+</script>
+<script>
+  function initialMathJax() {
+    MathJax.Hub.Queue(function () {
+      var all = MathJax.Hub.getAllJax(),
+        i;
+      // console.log(all);
+      for (i = 0; i < all.length; i += 1) {
+        console.log(all[i].SourceElement().parentNode)
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  }
 
-  <!-- SCRIPTS -->
+  function reprocessMathJax() {
+    if (typeof MathJax !== 'undefined') {
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    }
+  }
+</script>
+
+
+ 
+<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+ 
+<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
   
-  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
-
-  <script>
-    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
-    NProgress.start()
-    window.addEventListener('load', function() {
-      NProgress.done();
-    })
-  </script>
-
-
-<script  src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
-<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
-<script  src="/js/events.js" ></script>
-<script  src="/js/plugins.js" ></script>
-
-<!-- Plugins -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/obsidian.js"></script>
+<script src="/js/jquery.truncate.js"></script>
+<script src="/js/search.js"></script>
+ 
+<script src="//cdn.bootcss.com/typed.js/2.0.10/typed.min.js"></script>
+ 
+<script src="//cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+ 
+<script src="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
 
 
+<script src="https://cdn.bootcss.com/codemirror/5.48.4/codemirror.min.js"></script>
+ 
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/javascript/javascript.min.js"></script>
   
-    <script  src="/js/img-lazyload.js" ></script>
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/css/css.min.js"></script>
   
-
-
-
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/xml/xml.min.js"></script>
   
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/htmlmixed/htmlmixed.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/clike/clike.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/php/php.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/shell/shell.min.js"></script>
+  
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/python/python.min.js"></script>
+   
+<script src="/js/busuanzi.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    if ($('span[id^="busuanzi_"]').length) {
+      initialBusuanzi();
+    }
+  });
+</script>
+ 
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/default-skin/default-skin.min.css">
+
+
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-149874671-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149874671-1');
+</script>
+ 
+
+<script>
+  function initialTyped() {
+    var typedTextEl = $('.typed-text');
+    if (typedTextEl && typedTextEl.length > 0) {
+      var typed = new Typed('.typed-text', {
+        strings: ['Think like an artist, develop like an artisan', '艺术家思维去思考问题，工匠创造精神去开发'],
+        typeSpeed: 90,
+        loop: true,
+        loopCount: Infinity,
+        backSpeed: 20,
+      });
+    }
+  }
+
+  if ($('.article-header') && $('.article-header').length) {
+    $(document).ready(function () {
+      initialTyped();
+    });
+  }
+</script>
 
 
 
 
+ <!-- 例：百度统计 --> <script> var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?your_code"; var s = document.getElementsByTagName("script")[0];  s.parentNode.insertBefore(hm, s); })(); </script> 
 
-
-
-
-
-  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js" ></script>
-
-
-
-  <script  src="/js/local-search.js" ></script>
-
-
-
-
-
-
-  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var title = document.getElementById('subtitle').title;
-      
-      typing(title)
-      
-    })(window, document);
-  </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 主题的启动项 保持在最底部 -->
-<script  src="/js/boot.js" ></script>
-
-
-</body>
 </html>
