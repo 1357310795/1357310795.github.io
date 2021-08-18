@@ -1,506 +1,335 @@
 
+
 <!DOCTYPE html>
-<html lang="zh-CN" class="loading">
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Tag: 作业 - Hexo</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="TriDiamond Obsidian,"> 
-    
-    <meta name="author" content="John Doe"> 
-    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1429596_nzgqgvnmkjb.css">
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/doge.png">
+  <link rel="icon" href="/img/doge.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#3A6A99">
+  <meta name="description" content="">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+  <title>标签 - 作业 - Hexo</title>
 
-    
-<link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.7.2/animate.min.css">
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
-    
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
 
-    
-<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/codemirror.min.css">
 
-    
-<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/theme/dracula.css">
+<!-- 主题依赖的图标库，不要自行修改 -->
 
-    
-<link rel="stylesheet" href="/css/obsidian.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
 
-    
-<link rel="stylesheet" href="/css/ball-atom.min.css">
 
-    
-    
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.11","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"#"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
-<body class="loading">
-    <div class="loader">
-        <div class="la-ball-atom la-2x">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <span id="config-title" style="display:none">Hexo</span>
-    <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/whoami/" title="ABOUT" external="false">ABOUT</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/categories/" title="CATEGORIES" external="false">CATEGORIES</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/tags/" title="TAGS" external="false">TAGS</a>
-        </li>
-        
-        <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/archives/" title="ARCHIVES" external="false">ARCHIVES</a>
-        </li>
-        
-    </ul>
-    <p class="copyright" id="copyright">
-        &copy; 2021 John Doe.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
-    </p>
-</div>
+<body>
+  <header style="height: 80vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>SZY的博客</strong>&nbsp;</a>
 
-<div id="container">
-    
-<div class="search-box">
-    <form class="site-search-form">
-        <span class="iconfont icon-search"></span>
-        <input type="text" id="local-search-input" class="st-search-input" />
-        <div class="iconfont icon-cross search-box-close"></div>
-    </form>
-    <div class="search-scrollable">
-        <div id="local-search-result" class="local-search-result-cls" data-initialise="首次搜索，正在载入索引文件，请稍后……"
-            data-start="输入关键词搜索。" data-empty="没有找到内容，请尝试更换检索词。">
-            <span>输入关键词搜索。</span>
-        </div>
-    </div>
-</div>
-<div id="header">
-    <div>
-        <div class="logo animated fadeInDown">
-            <img src="/img/favicon.png" alt="">
-            <a class="image-logo" href="/"></a>
-        </div>
-        <ul id="menu-menu" class="menu text-menu">
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/whoami/" title="ABOUT" external="false" class="menu-link">ABOUT</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/categories/" title="CATEGORIES" external="false" class="menu-link">CATEGORIES</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/tags/" title="TAGS" external="false" class="menu-link">TAGS</a>
-            </li>
-            
-            <li class="animated fadeInDown menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/archives/" title="ARCHIVES" external="false" class="menu-link">ARCHIVES</a>
-            </li>
-            
-            
-        </ul>
-        <div class="iconfont icon-menu switchmenu gradient-text animated fadeInDown"></div>
-    </div>
-</div>
-<div id="screen">
-    <div id="mark">
-        <div class="cover animated fadeIn" style="
-            animation-delay: 900ms;
-            animation-duration: 2.8s;
-            background-image:
-                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.56), #100e17),
-                url(/img/cover.jpg);">
-        </div>
-    </div>
-    
-    <div id="post0" class="else">
-        <p class="animated fadeInDown">
-            
-            <a href="/categories/Maverick"><b>「
-                </b>MAVERICK<b> 」</b></a>
-            
-            七月 24, 2020
-        </p>
-        <h3 class="post-title animated fadeInDown">
-            <a href="/2020/07/24/%E6%9A%91%E5%81%87%E4%BD%9C%E4%B8%9A/" title="暑假作业" class="posttitle">暑假作业</a></h3>
-        
-        <p class="post-count animated fadeInDown">
-            
-            <span>
-                <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                2k
-            </span>
-            
-            
-            <span>
-                <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
-                2 mins.
-            </span>
-            
-            
-        </p>
-        
-        
-        <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E4%BD%9C%E4%B8%9A/" rel="tag">作业</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
-        
-        <div class="md-content animated fadeIn">
-            
-            <ul>
-<li><p>语文</p>
-<ul>
-<li>完成<strong>《金考卷》</strong>10套（第4套至第13套)，建议<strong>每两天一套</strong>，并注意错题的及时整理</li>
-<li>每班分六组完成一套浙江高考语文模拟试题的命制（要求以2020浙江卷为样卷，要求试题原创，考点明确，答案拟制科学...</li></ul></li></ul>
-            
-            <span class="read-more"><a href="/2020/07/24/%E6%9A%91%E5%81%87%E4%BD%9C%E4%B8%9A/" title="查看全文" class="posttitle">查看全文</a>
-                <b class="iconfont icon-arrow-right- gradient-text"></b></span>
-        </div>
-    </div>
-    
-</div>
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
 
-<div class="screen-gradient-after">
-    <div class="screen-gradient-content">
-        <div class="screen-gradient-content-inside">
-            <div class="bold-underline-links screen-gradient-sponsor">
-                <p>
-                    <span class="typed-text"></span>
-                </p>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/nathan-dumlao---OZtMyddAE-unsplash.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="标签 - 作业">
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
             </div>
+          
         </div>
+      </div>
     </div>
-</div>
+  </header>
 
-    <div id="primary">
-        
-<div class="post" id="post">
-    <div class="post-cover animated fadeIn" style="
-            background-image:
-            radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
-            url(/img/welcome-cover.jpg);">
-    </div>
-    <div class="else">
-        <p class="animated fadeInDown">
-            
-                <a href="/categories/Maverick">
-                  <b>「 </b>MAVERICK<b> 」</b>
-                </a>
-            
-            一月 19, 2020
-        </p>
-        <h3 class="post-title animated fadeInDown"><a href="/2020/01/19/%E5%AF%92%E5%81%87%E4%BD%9C%E4%B8%9A/" title="寒假作业" class="posttitle">寒假作业</a></h3>
-        
-            <p class="post-count animated fadeInDown">
-                
-                    <span>
-                        <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                        1.4k
-                    </span>
-                
-                
-                    <span>
-                        <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
-                        1 mins.
-                    </span>
-                
-                
-            </p>
-            
-                <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Maverick/" rel="tag">Maverick</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E4%BD%9C%E4%B8%9A/" rel="tag">作业</a></li><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
-            
-        
-        <div class="md-content animated fadeIn">
-            
-                <ul>
-<li><p>语文</p>
-<ul>
-<li>寒假作业本</li>
-<li>看课外书</li>
-<li>完成征文</li>
-<li>摘抄至少1000字</li>
-</ul>
-</li>
-<li><p>数学</p>
-<ul>
-<li>寒假作业本</li>
-<li>四套模拟试卷（<a target="_blank" rel="noopener" href="https://1357310795.github.io/Blog-With-GitHub-Boilerplate/archives/math-homework/">点击转到下载页面</a>）</li>
-</ul>
-</li>
-<li><p>英语</p>
-<ul>
-<li>《读后续写》（书每天看、记5-10页；熟记其他相关材料）</li>
-<li>应用文材料（背诵，默写词、句、文）</li>
-<li>每天听一套听力测试</li>
-<li>《典范英语》至少看三本（做好笔记，注意细节描写和表达）</li>
-<li>寒假作业本（41页起词汇部分必须完成，其他自选或做《天利38套》模拟试题）</li>
-<li>整理笔记</li>
-<li>学一首英文歌（lina推荐<a target="_blank" rel="noopener" href="https://music.163.com/#/song?id=18638023">Born to be somebody</a>或<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av8184769">Dream it possible</a>，点击歌名可...</li></ul></li></ul>
-            
-            <span class="read-more"><a href="/2020/01/19/%E5%AF%92%E5%81%87%E4%BD%9C%E4%B8%9A/" title="查看全文" class="posttitle">查看全文</a> <b class="iconfont icon-arrow-right- gradient-text"></b></span>
-        </div>
-    </div>
-</div>
-
-
-    </div>
+  <main>
     
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<div class="list-group">
+  <p class="h4">共计 2 篇文章</p>
+  <hr>
+  
+  
+    
+      
+      <p class="h5">2020</p>
+    
+    <a href="/2020/07/24/%E6%9A%91%E5%81%87%E4%BD%9C%E4%B8%9A/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">暑假作业</span>
+      <time style="float: right;">07-24</time>
+    </a>
+  
+    
+    <a href="/2020/01/19/%E5%AF%92%E5%81%87%E4%BD%9C%E4%B8%9A/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">寒假作业</span>
+      <time style="float: right;">01-19</time>
+    </a>
+  
 </div>
-<div id="preview"></div>
 
 
-    <div id="back-to-top" class="animated fadeIn faster">
-        <div class="flow"></div>
-        <span class="percentage animated fadeIn faster">0%</span>
-        <span class="iconfont icon-top02 animated fadeIn faster"></span>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
     </div>
-</body>
-<footer>
-    <p class="copyright" id="copyright">
-        &copy; 2021
-        <span class="gradient-text">
-            John Doe
-        </span>.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme
-        <span class="gradient-text">
-            <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
-        </span>
-        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.7" target="_blank" rel="noopener">v1.4.7</a></small>
-        
-        </br>
-        
-        <span class="gradient-text">
-            <a href="https://beian.miit.gov.cn/" title="beian.miit.gov.cn" target="_blank" rel="noopener">beian.miit.gov.cn</a>
-        </span>
-        
-        
-        </br>
-        <span style="display: inline-block;"> <img src=/null></span>
-        
-        <span class="gradient-text">
-            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602009049" title="www.beian.gov.cn&#x2F;portal&#x2F;registerSystemInfo?recordcode&#x3D;44010602009049" target="_blank" rel="noopener">www.beian.gov.cn&#x2F;portal&#x2F;registerSystemInfo?recordcode&#x3D;44010602009049</a>
-        </span>
-        
-    </p>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
 </footer>
 
-<script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<script>
-  MathJax.Hub.Config({
-    "HTML-CSS": {
-      preferredFont: "TeX",
-      availableFonts: ["STIX", "TeX"],
-      linebreaks: {
-        automatic: true
-      },
-      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
-    },
-    tex2jax: {
-      inlineMath: [
-        ["$", "$"],
-        ["\\(", "\\)"]
-      ],
-      processEscapes: true,
-      ignoreClass: "tex2jax_ignore|dno",
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-      noUndefined: {
-        attributes: {
-          mathcolor: "red",
-          mathbackground: "#FFEEEE",
-          mathsize: "90%"
-        }
-      },
-      Macros: {
-        href: "{}"
-      }
-    },
-    messageStyle: "none"
-  });
-</script>
-<script>
-  function initialMathJax() {
-    MathJax.Hub.Queue(function () {
-      var all = MathJax.Hub.getAllJax(),
-        i;
-      // console.log(all);
-      for (i = 0; i < all.length; i += 1) {
-        console.log(all[i].SourceElement().parentNode)
-        all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-    });
-  }
 
-  function reprocessMathJax() {
-    if (typeof MathJax !== 'undefined') {
-      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-    }
-  }
-</script>
-
-
- 
-<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
- 
-<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+  <!-- SCRIPTS -->
   
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/obsidian.js"></script>
-<script src="/js/jquery.truncate.js"></script>
-<script src="/js/search.js"></script>
- 
-<script src="//cdn.bootcss.com/typed.js/2.0.10/typed.min.js"></script>
- 
-<script src="//cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
- 
-<script src="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
 
 
-<script src="https://cdn.bootcss.com/codemirror/5.48.4/codemirror.min.js"></script>
- 
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/javascript/javascript.min.js"></script>
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
   
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/css/css.min.js"></script>
+    <script  src="/js/img-lazyload.js" ></script>
   
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/xml/xml.min.js"></script>
+
+
+
   
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/htmlmixed/htmlmixed.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/clike/clike.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/php/php.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/shell/shell.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/python/python.min.js"></script>
-   
-<script src="/js/busuanzi.min.js"></script>
-
-<script>
-  $(document).ready(function () {
-    if ($('span[id^="busuanzi_"]').length) {
-      initialBusuanzi();
-    }
-  });
-</script>
- 
-<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.css">
-<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/default-skin/default-skin.min.css">
-
-
-<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.js"></script>
-<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
-
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div>
- 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="//www.googletagmanager.com/gtag/js?id=UA-149874671-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-
-  gtag('config', 'UA-149874671-1');
-</script>
- 
-
-<script>
-  function initialTyped() {
-    var typedTextEl = $('.typed-text');
-    if (typedTextEl && typedTextEl.length > 0) {
-      var typed = new Typed('.typed-text', {
-        strings: ['Think like an artist, develop like an artisan', '艺术家思维去思考问题，工匠创造精神去开发'],
-        typeSpeed: 90,
-        loop: true,
-        loopCount: Infinity,
-        backSpeed: 20,
-      });
-    }
-  }
-
-  if ($('.article-header') && $('.article-header').length) {
-    $(document).ready(function () {
-      initialTyped();
-    });
-  }
-</script>
 
 
 
 
- <!-- 例：百度统计 --> <script> var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?your_code"; var s = document.getElementsByTagName("script")[0];  s.parentNode.insertBefore(hm, s); })(); </script> 
 
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js" ></script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
 </html>

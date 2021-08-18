@@ -1,151 +1,234 @@
 
+
 <!DOCTYPE html>
-<html lang="zh-CN" class="loading">
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>高中数学笔记（小抄）(持续更新中……) - Hexo</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="TriDiamond Obsidian,"> 
-    <meta name="description" content="
-此处只会列出最精华的公式、结论部分，基本知识和解题技巧请熟稔于心！
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/doge.png">
+  <link rel="icon" href="/img/doge.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#3A6A99">
+  <meta name="description" content="炒鸡好用的啦！">
+  <meta name="author" content="SZY">
+  <meta name="keywords" content="">
+  
+  <title>高中数学笔记（小抄）(持续更新中……) - Hexo</title>
 
-一、最最最重要的三角公式万能公式$ \sin^2\alpha=\frac{\tan^2\alpha}{\tan^2\alpha,"> 
-    <meta name="author" content="John Doe"> 
-    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1429596_nzgqgvnmkjb.css">
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
-    
-<link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.7.2/animate.min.css">
 
-    
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
 
-    
-<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/codemirror.min.css">
-
-    
-<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/theme/dracula.css">
-
-    
-<link rel="stylesheet" href="/css/obsidian.css">
-
-    
-<link rel="stylesheet" href="/css/ball-atom.min.css">
-
+  
     
     
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/github-gist.min.css" />
+    
+  
 
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.11","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"#"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
-<body class="loading">
-    <div class="loader">
-        <div class="la-ball-atom la-2x">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>SZY的博客</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
     </div>
-    <span id="config-title" style="display:none">Hexo</span>
-    <div id="loader"></div>
-    <div id="single">
-    <div class="scrollbar gradient-bg-rev"></div>
-<div id="top" style="display: block;">
-    <div class="bar" style="width: 0;"></div>
-    <div class="navigation animated fadeIn fast delay-1s">
-        <img id="home-icon" class="icon-home" src="/img/favicon.png" alt="" data-url="http://example.com">
-        <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
-        <h3 class="subtitle">高中数学笔记（小抄）(持续更新中……)</h3>
-        <div class="social">
-            <!--        <div class="like-icon">-->
-            <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
-            <!--        </div>-->
-            <div>
-                <div class="share">
-                    
-                        <a href="javascript:;" class="iconfont icon-share1"></a>
-                        <div class="share-component-cc" data-disabled="facebook,douban,linkedin,diandian,tencent,google"></div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/qixi1.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="高中数学笔记（小抄）(持续更新中……)">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-08-15 19:40" pubdate>
+        2021年8月15日 晚上
+      </time>
+    </span>
+  
 </div>
 
-    <div class="section">
-        <div class=article-header-wrapper>
-    <div class="article-header">
-        <div class="article-cover animated fadeIn" style="
-            animation-delay: 600ms;
-            animation-duration: 1.2s;
-            background-image: 
-                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
-                url(/img/cover.jpg) ">
-        </div>
-        <div class="else">
-            <p class="animated fadeInDown">
-                
-                <a href="/categories/数学笔记"><b>「
-                    </b>数学笔记<b> 」</b></a>
-                
-                八月 15, 2021
-            </p>
-            <h3 class="post-title animated fadeInDown"><a href="/2021/08/15/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E5%B0%8F%E6%8A%84%EF%BC%89/" title="高中数学笔记（小抄）(持续更新中……)" class="">高中数学笔记（小抄）(持续更新中……)</a>
-            </h3>
-            
-            <p class="post-count animated fadeInDown">
-                
-                <span>
-                    <b class="iconfont icon-text2"></b> <i>文章字数</i>
-                    13k
-                </span>
-                
-                
-                <span>
-                    <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
-                    12 mins.
-                </span>
-                
-                
-                
-                <span id="busuanzi_container_page_pv">
-                    <b class="iconfont icon-read"></b> <i>阅读次数</i>
-                    <span id="busuanzi_value_page_pv">0</span>
-                </span>
-                
-            </p>
-            
-            
-            <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul>
-            
-        </div>
-    </div>
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      2.1k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      37
+       分钟
+    </span>
+  
+
+  
+  
 </div>
 
-<div class="screen-gradient-after">
-    <div class="screen-gradient-content">
-        <div class="screen-gradient-content-inside">
-            <div class="bold-underline-links screen-gradient-sponsor">
-                <p>
-                    <span class="animated fadeIn delay-1s"></span>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+            
+          </div>
 
-<div class="article">
-    <div class='main'>
-        <div class="content markdown animated fadeIn">
-            <blockquote>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">高中数学笔记（小抄）(持续更新中……)</h1>
+            
+            <div class="markdown-body">
+              <blockquote>
 <p>此处只会列出最精华的公式、结论部分，基本知识和解题技巧请熟稔于心！</p>
 </blockquote>
 <h2 id="一、最最最重要的三角公式"><a href="#一、最最最重要的三角公式" class="headerlink" title="一、最最最重要的三角公式"></a>一、最最最重要的三角公式</h2><h3 id="万能公式"><a href="#万能公式" class="headerlink" title="万能公式"></a>万能公式</h3><p>$ \sin^2\alpha=\frac{\tan^2\alpha}{\tan^2\alpha+1} $</p>
@@ -194,7 +277,7 @@
 <p>$ 4\sin\alpha\cdot\sin(\frac{\pi}{3} -\alpha)\cdot\sin(\frac{\pi}{3} +\alpha)=\sin3\alpha $</p>
 <p>$ 4\cos\alpha\cdot\cos(\frac{\pi}{3} -\alpha)\cdot\cos(\frac{\pi}{3} +\alpha)=\cos3\alpha $</p>
 <p>$ \tan(\frac{\pi}{4}+\alpha)\cdot\tan(\frac{\pi}{4}-\alpha)=\frac{1+\tan\alpha}{1-\tan\alpha}\cdot\frac{1-\tan\alpha}{1+\tan\alpha}=1 $</p>
-<h3 id="象限图"><a href="#象限图" class="headerlink" title="象限图"></a>象限图</h3><p><img src="https://i.loli.net/2021/08/16/KE9NOzXwZtLSIVb.png" alt=""></p>
+<h3 id="象限图"><a href="#象限图" class="headerlink" title="象限图"></a>象限图</h3><p><img src="https://i.loli.net/2021/08/16/KE9NOzXwZtLSIVb.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <h2 id="二、数列相关"><a href="#二、数列相关" class="headerlink" title="二、数列相关"></a>二、数列相关</h2><h3 id="常见裂项、放缩"><a href="#常见裂项、放缩" class="headerlink" title="常见裂项、放缩"></a>常见裂项、放缩</h3><ol>
 <li>$ \frac{1}{n(n+k)}=\frac{1}{k}\left(\frac{1}{n}-\frac{1}{n+k}\right) $</li>
 <li>$ \frac{1}{n(n+1)(n+2)}=\frac{1}{2}\left(\frac{1}{n(n+1)}-\frac{1}{(n+1)(n+2)}\right) $</li>
@@ -263,18 +346,18 @@ H_{n}\leq G_{n}\leq A_{n}\leq Q_{n}
 \right.</script><h3 id="其他不等式"><a href="#其他不等式" class="headerlink" title="其他不等式"></a>其他不等式</h3><p>（待更新）<br>1.柯西<br>2.排序<br>3.切比雪夫<br>4.卡尔松</p>
 <h2 id="五、立体几何-amp-平面几何（主要是三角形）"><a href="#五、立体几何-amp-平面几何（主要是三角形）" class="headerlink" title="五、立体几何&amp;平面几何（主要是三角形）"></a>五、立体几何&amp;平面几何（主要是三角形）</h2><h3 id="体积万能公式"><a href="#体积万能公式" class="headerlink" title="体积万能公式"></a>体积万能公式</h3><p>$ V=\frac{1}{6}\left(S_{顶}+S_{底}+4S_{中}\right)h $</p>
 <h3 id="三角形秦九韶公式"><a href="#三角形秦九韶公式" class="headerlink" title="三角形秦九韶公式"></a>三角形秦九韶公式</h3><p>$ S=\frac{1}{4}\sqrt{4a^2b^2-(a^2+b^2-c^2)^2} $<br>(注意此式为三元对称式)</p>
-<h3 id="斯特瓦尔特定理"><a href="#斯特瓦尔特定理" class="headerlink" title="斯特瓦尔特定理"></a>斯特瓦尔特定理</h3><p><img src="https://i.loli.net/2021/08/16/9zvchm2NxoteOVd.png" alt=""></p>
+<h3 id="斯特瓦尔特定理"><a href="#斯特瓦尔特定理" class="headerlink" title="斯特瓦尔特定理"></a>斯特瓦尔特定理</h3><p><img src="https://i.loli.net/2021/08/16/9zvchm2NxoteOVd.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <script type="math/tex; mode=display">
 d=\sqrt{\frac{a^2y+b^2x}{x+y}-xy}</script><p>(看清楚公式和图再记，$a^2y+b^2x$千万别搞错)</p>
 <h3 id="一些三角形小定理"><a href="#一些三角形小定理" class="headerlink" title="一些三角形小定理"></a>一些三角形小定理</h3><p>$ \Delta ABC中，a^2=b(b+c)\Leftrightarrow A=2B $</p>
 <p>$ S_{\Delta ABC}=\frac{c^2}{2}\cdot\frac{\tan A\tan B}{\tan A+\tan B} $</p>
 <p>$ \Delta ABC中，2b=a+c \Leftrightarrow \tan\frac{A}{2}\tan\frac{B}{2}=\frac{1}{3}$</p>
-<h3 id="正四面体相关"><a href="#正四面体相关" class="headerlink" title="正四面体相关"></a>正四面体相关</h3><p><img src="https://i.loli.net/2021/08/16/pGMLcnCliNqQSPf.png" alt=""></p>
+<h3 id="正四面体相关"><a href="#正四面体相关" class="headerlink" title="正四面体相关"></a>正四面体相关</h3><p><img src="https://i.loli.net/2021/08/16/pGMLcnCliNqQSPf.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <p>$ S_{截}=\frac{\sqrt{2}}{4}a^2, S_{表}=\sqrt{3}a^2, V=\frac{\sqrt{2}}{12}a^3 $<br>$ h=\frac{\sqrt{6}}{3}a, r=\frac{\sqrt{6}}{12}a, R=\frac{\sqrt{6}}{4}a $</p>
 <p>对棱中点连线长$\frac{\sqrt{2}}{2}a$</p>
 <p>线面角：$\sin\theta=\frac{\sqrt{6}}{3}, \cos\theta=\frac{\sqrt{3}}{3}, 1:\sqrt{2}:\sqrt{3} $</p>
 <p>二面角：$\sin\alpha=\frac{2\sqrt{2}}{3}, \cos\alpha=\frac{1}{3}, 1:2\sqrt{2}:3 $</p>
-<h3 id="三射线定理-amp-SZY线面角终极公式"><a href="#三射线定理-amp-SZY线面角终极公式" class="headerlink" title="三射线定理&amp;SZY线面角终极公式"></a>三射线定理&amp;SZY线面角终极公式</h3><p><img src="https://i.loli.net/2021/08/16/oFH9pITyGe61Zbk.png" alt=""></p>
+<h3 id="三射线定理-amp-SZY线面角终极公式"><a href="#三射线定理-amp-SZY线面角终极公式" class="headerlink" title="三射线定理&amp;SZY线面角终极公式"></a>三射线定理&amp;SZY线面角终极公式</h3><p><img src="https://i.loli.net/2021/08/16/oFH9pITyGe61Zbk.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <p>三射线定理：$\angle AOC=\alpha, \angle AOB=\beta,\angle BOC=\theta, 二面角C-OA-B=\gamma, 则：$</p>
 <script type="math/tex; mode=display">\cos\gamma=\frac{\cos\theta-\cos\alpha\cos\beta}{\sin\alpha\sin\beta}</script><p>SZY线面角终极公式：$\cos\angle AOH_2=a, \cos\angle AOH_3=b, \cos\angle COD=c, 则： $</p>
 <script type="math/tex; mode=display">\cos\angle AOH_1=\sqrt{\frac{a^2+b^2-2abc}{1-c^2}}</script><h3 id="其他公式"><a href="#其他公式" class="headerlink" title="其他公式"></a>其他公式</h3><p>四面体$ABCD$对棱$AB、BD$所成角为$\alpha$，则：</p>
@@ -301,7 +384,7 @@ Ax+By-2(Ax_0+By_0)-C=0</script><p>*3.直线$A_1x+B_1y+C_1=0$关于直线$A_0x+B_
 内心I\left(\frac{\sum x_A\sin2A}{\sum\sin2A},\frac{\sum y_A\sin2A}{\sum\sin2A}\right)\\
 三个旁心略
 \end{array}</script><h3 id="圆锥曲线——椭圆"><a href="#圆锥曲线——椭圆" class="headerlink" title="圆锥曲线——椭圆"></a>圆锥曲线——椭圆</h3><ul>
-<li>点差法结论<br><img src="https://i.loli.net/2021/08/17/r6Cp1wnFj4YcJb7.png" alt=""></li>
+<li>点差法结论<br><img src="https://i.loli.net/2021/08/17/r6Cp1wnFj4YcJb7.png" srcset="/img/loading.gif" lazyload alt=""></li>
 </ul>
 <script type="math/tex; mode=display">
 \begin{array}{l} 
@@ -319,317 +402,279 @@ k_{OP}\cdot k_{AB}=-\frac{b^2}{a^2}
 </li>
 <li><p>准线：$x=\pm\frac{a^2}{c}$</p>
 </li>
-<li><p>过端点/原点的直线<br><img src="https://i.loli.net/2021/08/17/yz3K7GnIfmioCVv.png" alt=""><br><img src="https://i.loli.net/2021/08/17/fPMEGITOlL95pgW.png" alt=""><br><img src="https://i.loli.net/2021/08/17/I6BRwoGYZH2Mheg.png" alt=""><br><img src="https://i.loli.net/2021/08/17/5drkUHDgQ6pxEBY.png" alt=""><br><img src="https://i.loli.net/2021/08/17/zF3lm8bE71hpPXj.png" alt=""></p>
+<li><p>过端点/原点的直线<br><img src="https://i.loli.net/2021/08/17/yz3K7GnIfmioCVv.png" srcset="/img/loading.gif" lazyload alt=""><br><img src="https://i.loli.net/2021/08/17/fPMEGITOlL95pgW.png" srcset="/img/loading.gif" lazyload alt=""><br><img src="https://i.loli.net/2021/08/17/I6BRwoGYZH2Mheg.png" srcset="/img/loading.gif" lazyload alt=""><br><img src="https://i.loli.net/2021/08/17/5drkUHDgQ6pxEBY.png" srcset="/img/loading.gif" lazyload alt=""><br><img src="https://i.loli.net/2021/08/17/zF3lm8bE71hpPXj.png" srcset="/img/loading.gif" lazyload alt=""></p>
 </li>
 </ul>
 <h2 id="七、导数"><a href="#七、导数" class="headerlink" title="七、导数"></a>七、导数</h2>
-            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls"
-                data-autoplay="false">
-                <source type="audio/mpeg" src="">
-            </audio>
-            
-            <ul id="audio-list" style="display:none">
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
                 
-                
-                <li title='0' data-url='/statics/chengdu.mp3'></li>
-                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
                     
-            </ul>
-            
-            
-            <div class="post-nav">
-                <hr>
+                      <a class="hover-with-bg" href="/categories/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/">数学笔记</a>
+                    
+                  </div>
                 
                 
-                    <div class="post-nav-item">下一篇:<a href="/2021/08/15/hello-world/" rel="next" 
-                        title="使用Hexo重新建站纪念">使用Hexo重新建站纪念</a></div>
-                                
-            </div>   
-                        
-            
-            
-    <div id='gitalk-container' class="comment link"
-        data-ae='true'
-        data-ci='ec894e2b66f752e8b7fb'
-        data-cs='3ccc2e92bb350688fe2c2dc2930189b62622bfb1'
-        data-r='blog-comments'
-        data-o='TriDiamond'
-        data-a='TriDiamond'
-        data-d=''
-        data-p='https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
-    >留言</div>
-
-
-            
-            
-        </div>
-        <div class="sidebar">
-            <div class="box animated fadeInRight">
-                <div class="subbox">
-                    <img src="https://res.cloudinary.com/tridiamond/image/upload/v1573019751/TriDiamond_logo_ui_xeublz.jpg" height=300 width=300></img>
-                    <p>SZY</p>
-                    <span>Think like an artist, develop like an artisan</span>
-                    <dl>
-                        
-                        
-                    </dl>
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/Hexo/">Hexo</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/08/15/hello-world/">
+                        <span class="hidden-mobile">使用Hexo重新建站纪念</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
                 </div>
-                <ul>
-                    <li><a href="/">15 <p>文章</p></a></li>
-                    <li><a href="/categories">3 <p>分类</p></a></li>
-                    <li><a href="/tags">8 <p>标签</p></a></li>
-                </ul>
+              
             </div>
+
             
-            
-            
-            <div class="box sticky animated fadeInRight faster">
-                <div id="toc" class="subbox">
-                    <h4>目录</h4>
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%9C%80%E6%9C%80%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%B8%89%E8%A7%92%E5%85%AC%E5%BC%8F"><span class="toc-number">1.</span> <span class="toc-text">一、最最最重要的三角公式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%87%E8%83%BD%E5%85%AC%E5%BC%8F"><span class="toc-number">1.1.</span> <span class="toc-text">万能公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%85%E5%8A%A9%E8%A7%92%E5%85%AC%E5%BC%8F"><span class="toc-number">1.2.</span> <span class="toc-text">辅助角公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%B1%E5%AF%BC%E5%85%AC%E5%BC%8F%E5%8F%A3%E8%AF%80%EF%BC%88SZY%E7%89%88%EF%BC%89"><span class="toc-number">1.3.</span> <span class="toc-text">诱导公式口诀（SZY版）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E5%80%8D%E8%A7%92%E5%85%AC%E5%BC%8F"><span class="toc-number">1.4.</span> <span class="toc-text">二倍角公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%8A%E8%A7%92%E5%85%AC%E5%BC%8F"><span class="toc-number">1.5.</span> <span class="toc-text">半角公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%92%8C%E5%B7%AE%E8%A7%92%E5%85%AC%E5%BC%8F"><span class="toc-number">1.6.</span> <span class="toc-text">和差角公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E5%80%8D%E8%A7%92%E5%85%AC%E5%BC%8F"><span class="toc-number">1.7.</span> <span class="toc-text">*三倍角公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A7%AF%E5%8C%96%E5%92%8C%E5%B7%AE%E3%80%81%E5%92%8C%E5%B7%AE%E5%8C%96%E7%A7%AF"><span class="toc-number">1.8.</span> <span class="toc-text">*积化和差、和差化积</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%87%E6%80%AA%E7%9A%84%E5%85%AC%E5%BC%8F"><span class="toc-number">1.9.</span> <span class="toc-text">一些奇怪的公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B1%A1%E9%99%90%E5%9B%BE"><span class="toc-number">1.10.</span> <span class="toc-text">象限图</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%95%B0%E5%88%97%E7%9B%B8%E5%85%B3"><span class="toc-number">2.</span> <span class="toc-text">二、数列相关</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E8%A3%82%E9%A1%B9%E3%80%81%E6%94%BE%E7%BC%A9"><span class="toc-number">2.1.</span> <span class="toc-text">常见裂项、放缩</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E5%8A%A8%E7%82%B9%E6%B3%95"><span class="toc-number">2.2.</span> <span class="toc-text">不动点法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AD%89%E6%AF%94%E6%95%B0%E5%88%97%E4%B8%8E%E7%AD%89%E5%B7%AE%E6%95%B0%E5%88%97%E7%9B%B8%E4%B9%98"><span class="toc-number">2.3.</span> <span class="toc-text">等比数列与等差数列相乘</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88"><span class="toc-number">3.</span> <span class="toc-text">三、排列组合</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%84%E7%B1%BB%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95"><span class="toc-number">3.1.</span> <span class="toc-text">各类基本方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E7%90%83%E5%85%A5%E7%9B%92%E6%A8%A1%E5%9E%8B"><span class="toc-number">3.2.</span> <span class="toc-text">小球入盒模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8E%AF%E5%BD%A2%E6%9F%93%E8%89%B2%E9%97%AE%E9%A2%98"><span class="toc-number">3.3.</span> <span class="toc-text">环形染色问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%9F%BA%E6%9C%AC%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-number">4.</span> <span class="toc-text">四、基本不等式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9D%87%E5%80%BC%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-number">4.1.</span> <span class="toc-text">*均值不等式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9D%87%E5%80%BC%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E4%BA%8C%E5%85%83%E5%BD%A2%E5%BC%8F"><span class="toc-number">4.2.</span> <span class="toc-text">均值不等式的二元形式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9D%87%E5%80%BC%E4%B8%8D%E7%AD%89%E5%BC%8F%E4%BA%8C%E5%85%83%E5%BD%A2%E5%BC%8F%E5%8F%98%E5%BD%A2"><span class="toc-number">4.3.</span> <span class="toc-text">均值不等式二元形式变形</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-number">4.4.</span> <span class="toc-text">其他不等式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95-amp-%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%EF%BC%88%E4%B8%BB%E8%A6%81%E6%98%AF%E4%B8%89%E8%A7%92%E5%BD%A2%EF%BC%89"><span class="toc-number">5.</span> <span class="toc-text">五、立体几何&amp;平面几何（主要是三角形）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%93%E7%A7%AF%E4%B8%87%E8%83%BD%E5%85%AC%E5%BC%8F"><span class="toc-number">5.1.</span> <span class="toc-text">体积万能公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E8%A7%92%E5%BD%A2%E7%A7%A6%E4%B9%9D%E9%9F%B6%E5%85%AC%E5%BC%8F"><span class="toc-number">5.2.</span> <span class="toc-text">三角形秦九韶公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%AF%E7%89%B9%E7%93%A6%E5%B0%94%E7%89%B9%E5%AE%9A%E7%90%86"><span class="toc-number">5.3.</span> <span class="toc-text">斯特瓦尔特定理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E4%B8%89%E8%A7%92%E5%BD%A2%E5%B0%8F%E5%AE%9A%E7%90%86"><span class="toc-number">5.4.</span> <span class="toc-text">一些三角形小定理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A3%E5%9B%9B%E9%9D%A2%E4%BD%93%E7%9B%B8%E5%85%B3"><span class="toc-number">5.5.</span> <span class="toc-text">正四面体相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E5%B0%84%E7%BA%BF%E5%AE%9A%E7%90%86-amp-SZY%E7%BA%BF%E9%9D%A2%E8%A7%92%E7%BB%88%E6%9E%81%E5%85%AC%E5%BC%8F"><span class="toc-number">5.6.</span> <span class="toc-text">三射线定理&amp;SZY线面角终极公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%85%AC%E5%BC%8F"><span class="toc-number">5.7.</span> <span class="toc-text">其他公式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95"><span class="toc-number">6.</span> <span class="toc-text">六、解析几何</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E7%BB%93%E8%AE%BA"><span class="toc-number">6.1.</span> <span class="toc-text">常用结论</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF%E2%80%94%E2%80%94%E6%A4%AD%E5%9C%86"><span class="toc-number">6.2.</span> <span class="toc-text">圆锥曲线——椭圆</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E5%AF%BC%E6%95%B0"><span class="toc-number">7.</span> <span class="toc-text">七、导数</span></a></li></ol>
-                </div>
-            </div>
-            
-            
-        </div>
+              <!-- Comments -->
+              <article class="comments" id="comments" lazyload>
+                
+                  
+                
+                
+  <div class="cusdis" style="width:100%">
+    <div id="cusdis_thread"
+      data-host="https://cusdis.com"
+      data-app-id="3e754162-ff01-4801-b8f2-52f2cdd0bfb7"
+      data-page-id="e23c1d2f8536a72cb52d622f616e325b"
+      data-page-url="2021/08/15/高中数学笔记（小抄）/"
+      data-page-title="高中数学笔记（小抄）(持续更新中……)"
+      data-theme="auto"
+    >
     </div>
+  </div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#cusdis_thread', function() {
+      Fluid.utils.createScript('https://cusdis.com/js/widget/lang/zh-cn.js');
+      Fluid.utils.createScript('https://cusdis.com/js/cusdis.es.js');
+      var schema = document.documentElement.getAttribute('data-user-color-scheme');
+      if (schema) {
+        document.querySelector('#cusdis_thread').dataset.theme = schema
+      }
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+              </article>
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
 </div>
 
-    </div>
+      </div>
+    
+  </div>
 </div>
-    <div id="back-to-top" class="animated fadeIn faster">
-        <div class="flow"></div>
-        <span class="percentage animated fadeIn faster">0%</span>
-        <span class="iconfont icon-top02 animated fadeIn faster"></span>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
     </div>
-</body>
-<footer>
-    <p class="copyright" id="copyright">
-        &copy; 2021
-        <span class="gradient-text">
-            John Doe
-        </span>.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme
-        <span class="gradient-text">
-            <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
-        </span>
-        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.7" target="_blank" rel="noopener">v1.4.7</a></small>
-        
-        </br>
-        
-        <span class="gradient-text">
-            <a href="https://beian.miit.gov.cn/" title="beian.miit.gov.cn" target="_blank" rel="noopener">beian.miit.gov.cn</a>
-        </span>
-        
-        
-        </br>
-        <span style="display: inline-block;"> <img src=/null></span>
-        
-        <span class="gradient-text">
-            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602009049" title="www.beian.gov.cn&#x2F;portal&#x2F;registerSystemInfo?recordcode&#x3D;44010602009049" target="_blank" rel="noopener">www.beian.gov.cn&#x2F;portal&#x2F;registerSystemInfo?recordcode&#x3D;44010602009049</a>
-        </span>
-        
-    </p>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
 </footer>
 
-<script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<script>
-  MathJax.Hub.Config({
-    "HTML-CSS": {
-      preferredFont: "TeX",
-      availableFonts: ["STIX", "TeX"],
-      linebreaks: {
-        automatic: true
-      },
-      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
-    },
-    tex2jax: {
-      inlineMath: [
-        ["$", "$"],
-        ["\\(", "\\)"]
-      ],
-      processEscapes: true,
-      ignoreClass: "tex2jax_ignore|dno",
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-      noUndefined: {
-        attributes: {
-          mathcolor: "red",
-          mathbackground: "#FFEEEE",
-          mathsize: "90%"
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.3/dist/tocbot.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.1/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js" ></script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
         }
-      },
-      Macros: {
-        href: "{}"
-      }
-    },
-    messageStyle: "none"
-  });
-</script>
-<script>
-  function initialMathJax() {
-    MathJax.Hub.Queue(function () {
-      var all = MathJax.Hub.getAllJax(),
-        i;
-      // console.log(all);
-      for (i = 0; i < all.length; i += 1) {
-        console.log(all[i].SourceElement().parentNode)
-        all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-    });
-  }
+      };
+    </script>
 
-  function reprocessMathJax() {
-    if (typeof MathJax !== 'undefined') {
-      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-    }
-  }
-</script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.4/es5/tex-svg.js" ></script>
 
-
- 
-<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
- 
-<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
   
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/obsidian.js"></script>
-<script src="/js/jquery.truncate.js"></script>
-<script src="/js/search.js"></script>
- 
-<script src="//cdn.bootcss.com/typed.js/2.0.10/typed.min.js"></script>
- 
-<script src="//cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
- 
-<script src="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
-
-
-<script src="https://cdn.bootcss.com/codemirror/5.48.4/codemirror.min.js"></script>
- 
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/javascript/javascript.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/css/css.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/xml/xml.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/htmlmixed/htmlmixed.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/clike/clike.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/php/php.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/shell/shell.min.js"></script>
-  
-<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/python/python.min.js"></script>
-   
-<script src="/js/busuanzi.min.js"></script>
-
-<script>
-  $(document).ready(function () {
-    if ($('span[id^="busuanzi_"]').length) {
-      initialBusuanzi();
-    }
-  });
-</script>
- 
-<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.css">
-<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/default-skin/default-skin.min.css">
-
-
-<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.js"></script>
-<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
-
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div>
- 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="//www.googletagmanager.com/gtag/js?id=UA-149874671-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-
-  gtag('config', 'UA-149874671-1');
-</script>
- 
-
-<script>
-  function initialTyped() {
-    var typedTextEl = $('.typed-text');
-    if (typedTextEl && typedTextEl.length > 0) {
-      var typed = new Typed('.typed-text', {
-        strings: ['Think like an artist, develop like an artisan', '艺术家思维去思考问题，工匠创造精神去开发'],
-        typeSpeed: 90,
-        loop: true,
-        loopCount: Infinity,
-        backSpeed: 20,
-      });
-    }
-  }
-
-  if ($('.article-header') && $('.article-header').length) {
-    $(document).ready(function () {
-      initialTyped();
-    });
-  }
-</script>
 
 
 
 
- <!-- 例：百度统计 --> <script> var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?your_code"; var s = document.getElementsByTagName("script")[0];  s.parentNode.insertBefore(hm, s); })(); </script> 
 
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
 </html>
